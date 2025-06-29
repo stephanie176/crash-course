@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  font-size: 2rem;
+  background-color: pink;
+  /* BOX MODEL */
+  width: 300px;
+  height: 100px;
+  padding: 32px 64px 100px 10px;
+  border: 5px solid black;
+  margin: 0;
+}
